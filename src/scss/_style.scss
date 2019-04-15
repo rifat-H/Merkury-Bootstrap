@@ -244,7 +244,100 @@ header {
 // <!-- template end -->
 
 // <!-- pricing start -->
-.pricing {}
+.pricing {
+    padding: 105px 0;
+    text-align: center;
+
+    h1 {
+        color: #0e1a35;
+        margin-bottom: 45px;
+    }
+
+    .plan {
+        margin: 45px auto;
+        padding: 46px 12px;
+        background-color: #fff;
+        box-shadow: 0 0 20px 0 grey;
+        width: 90%;
+        
+
+
+        h2 {
+            color: #0e1a35;
+        }
+
+        h3 {
+            margin: 40px 0;
+
+            .currency {
+                color: #0e1a35;
+                font-size: 40px;
+            }
+
+            .number {
+                color: #0e1a35;
+                font-size: 72px;
+            }
+
+            .time {
+                font-size: 24px;
+                color: #8492af;
+            }
+        }
+
+        p {
+            margin: 8px 0;
+
+            .check {
+                color: #5284ff;
+            }
+
+            .times {
+                color: #f94c86;
+            }
+        }
+
+    }
+
+    h4 {
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+
+    button {
+        position: relative;
+        border-radius: 24px;
+        background-color: #5584ff;
+        padding: 17px 62px;
+        color: #ffffff;
+        font-weight: 700;
+        transition: .3s;
+
+
+
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 226px;
+            height: 1px;
+            background-color: #8492af;
+            top: 30px;
+            right: 240px;
+        
+        }
+        &:after {
+            position: absolute;
+            content: '';
+            width: 226px;
+            height: 1px;
+            background-color: #8492af;
+            top: 30px;
+            right: -260px;
+        }
+    }
+
+}
 
 // <!-- pricing end -->
 
