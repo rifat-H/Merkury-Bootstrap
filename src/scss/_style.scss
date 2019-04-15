@@ -145,6 +145,12 @@ header {
             background: none;
             color: #0e1a35;
             font-weight: 700;
+            transition: .3s;
+
+            &:hover{
+                background-color: #5584ff;
+                color: #fff;
+            }
         }
     }
 
@@ -185,7 +191,7 @@ header {
         font-size: 22px;
     }
 
-    img{
+    img {
         width: 48%;
         height: 70%;
         position: absolute;
@@ -204,11 +210,13 @@ header {
     background-image: url(../images/drag.jpg);
     background-repeat: no-repeat;
 
-    h1{}
-    p{
+    h1 {}
+
+    p {
         margin-top: 45px;
     }
-    img{
+
+    img {
         margin-top: 55px;
         margin-right: 20px;
     }
@@ -217,7 +225,18 @@ header {
 // <!-- drag end -->
 
 // <!-- template start -->
-.template {}
+.template {
+    padding: 100px 0;
+    background-color: #f6f7fa;
+    text-align: center;
+
+    h1 {}
+
+    p {
+        margin-top: 62px;
+        margin-bottom: 90px;
+    }
+}
 
 // <!-- template end -->
 
