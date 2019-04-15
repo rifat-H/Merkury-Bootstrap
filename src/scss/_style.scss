@@ -198,7 +198,20 @@ header {
 // <!-- browser end -->
 
 // <!-- drag start -->
-.drag {}
+.drag {
+    padding-top: 155px;
+    padding-bottom: 183px;
+    background-image: url(../images/drag.jpg);
+
+    h1{}
+    p{
+        margin-top: 45px;
+    }
+    img{
+        margin-top: 55px;
+        margin-right: 20px;
+    }
+}
 
 // <!-- drag end -->
 
