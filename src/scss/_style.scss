@@ -347,6 +347,8 @@ footer {
     background-color: #0e1a35;
 
     ul{
+        display: flex;
+        justify-content: flex-end;
         li{
             margin-left: 50px;
             a{
@@ -357,4 +359,4 @@ footer {
 
 }
 
-// footer end
+// footer end  

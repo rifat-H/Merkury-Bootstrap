@@ -11,6 +11,23 @@
 
     // common class
 
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 10px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
+
     // <!-- pricing start -->
     .pricing {
         button {
@@ -115,6 +132,22 @@
     // common class
 
 
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 10px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
 
     // <!-- drag start -->
     .drag {
@@ -190,6 +223,23 @@
 
     // common class
 
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 20px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
+
     // <!-- browser start -->
     .browser {
         text-align: center;
@@ -237,6 +287,23 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+       // footer start
+       footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 20px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+    
 
     // header start
 
