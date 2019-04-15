@@ -11,6 +11,22 @@
 
     // common class
 
+    // <!-- pricing start -->
+    .pricing {
+        button {
+            &:before {
+                display: none;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    // <!-- pricing start -->
+
+
 
     // <!-- drag start -->
     .drag {
@@ -97,6 +113,21 @@
     }
 
     // common class
+
+        // <!-- pricing start -->
+        // .pricing {
+        //     button {
+        //         &:before {
+        //             display: none;
+        //         }
+    
+        //         &:after {
+        //             display: none;
+        //         }
+        //     }
+        // }
+    
+        // <!-- pricing start -->
 
     // <!-- drag start -->
     .drag {
