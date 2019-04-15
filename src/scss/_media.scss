@@ -12,6 +12,13 @@
     // common class
 
 
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+    }
+
+    // <!-- services end -->
+
     // header start
     header {
         padding-bottom: 94px;
@@ -67,11 +74,19 @@
 
     // common class
 
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+    }
+
+    // <!-- services end -->
+
 
     // header start
     header {
 
         padding-bottom: 120px;
+
         nav {
             ul {
                 margin-top: 20px;
@@ -88,6 +103,7 @@
 
         .banner {
             padding-top: 80px;
+
             p {
                 font-size: 32px;
             }
@@ -103,6 +119,15 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+    }
+
+    // <!-- services end -->
+
+
 
     // header start
     header {
@@ -122,7 +147,7 @@
             }
         }
 
-        .banner{
+        .banner {
             padding-top: 100px;
         }
     }
@@ -136,14 +161,15 @@
 
     // header start
 
-header{
-    .banner{
-        img{
-            top: 369px;
-            left: 0;
+    header {
+        .banner {
+            img {
+                top: 369px;
+                left: 0;
+            }
         }
     }
-}
+
     // header end
 }
 
