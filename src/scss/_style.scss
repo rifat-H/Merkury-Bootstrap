@@ -121,7 +121,7 @@ header {
     padding-top: 150px;
     padding-bottom: 10px;
 
-    .no-hr{
+    .no-hr {
         &:after {
             content: none !important;
         }
@@ -143,7 +143,7 @@ header {
             left: 270px;
         }
 
-       
+
 
         img {
             height: 80px;
@@ -336,7 +336,10 @@ header {
         font-weight: 700;
         transition: .3s;
 
+        &:hover {
 
+            background-color: rgb(14, 26, 53);
+        }
 
 
         &:before {
@@ -379,6 +382,10 @@ footer {
 
             a {
                 color: #8492af;
+
+                &:hover {
+                    text-decoration: none;
+                }
             }
         }
     }
