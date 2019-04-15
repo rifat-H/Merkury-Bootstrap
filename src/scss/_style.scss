@@ -342,6 +342,19 @@ header {
 // <!-- pricing start -->
 
 // footer start
-footer {}
+footer {
+    padding: 65px 0;
+    background-color: #0e1a35;
+
+    ul{
+        li{
+            margin-left: 50px;
+            a{
+                color: #8492af;
+            }
+        }
+    }
+
+}
 
 // footer end
