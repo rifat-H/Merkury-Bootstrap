@@ -1,16 +1,151 @@
 @import 'variable.scss';
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    // common class
+
+    .title {
+        font-size: 30px;
+    }
+
+
+    // common class
+
+
+    // header start
+    header {
+        padding-bottom: 94px;
+
+        nav {
+            ul {
+                margin-top: 20px;
+
+                li {
+                    margin: 5px auto;
+
+                    a {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+
+        .banner {
+            padding-top: 70px;
+
+            p {
+                font-size: 26px;
+            }
+
+            button {
+                padding: 11px 45px;
+            }
+
+            img {
+                top: 370px;
+                left: 2px;
+            }
+        }
+    }
+
+    // header end
+
+
+
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    // common class
+
+    .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+
+    // common class
+
+
+    // header start
+    header {
+
+        padding-bottom: 120px;
+        nav {
+            ul {
+                margin-top: 20px;
+
+                li {
+                    margin: 5px auto;
+
+                    a {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .banner {
+            padding-top: 80px;
+            p {
+                font-size: 32px;
+            }
+
+            button {
+                padding: 14px 55px;
+            }
+        }
+    }
+
+    // header end
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    // header start
+    header {
+        padding-bottom: 120px;
+
+        nav {
+            ul {
+                margin-top: 20px;
+
+                li {
+                    margin: 5px auto;
+
+                    a {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .banner{
+            padding-top: 100px;
+        }
+    }
+
+    // header end
+
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    // header start
+
+header{
+    .banner{
+        img{
+            top: 369px;
+            left: 0;
+        }
+    }
+}
+    // header end
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}
