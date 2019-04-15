@@ -73,6 +73,12 @@
     // <!-- services start -->
     .services {
         padding-top: 0;
+
+        .service-content {
+            &:after {
+                content: none;
+            }
+        }
     }
 
     // <!-- services end -->
@@ -170,6 +176,12 @@
     // <!-- services start -->
     .services {
         padding-top: 0;
+
+        .service-content {
+            &:after {
+                content: none;
+            }
+        }
     }
 
     // <!-- services end -->
@@ -248,12 +260,19 @@
     // <!-- browser end -->
 
 
-    // <!-- services start -->
-    .services {
-        padding-top: 0;
-    }
+        // <!-- services start -->
+        .services {
+            padding-top: 0;
+    
+            .service-content {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    
+        // <!-- services end -->
 
-    // <!-- services end -->
 
 
 
@@ -288,8 +307,8 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-       // footer start
-       footer {
+    // footer start
+    footer {
         text-align: center;
 
         ul {
@@ -303,7 +322,21 @@
     }
 
     // footer end
-    
+
+       // <!-- services start -->
+       .services {
+        padding-top: 0;
+
+        .service-content {
+            &:after {
+                width: 180px;
+                left: 230px;
+            }
+        }
+    }
+
+    // <!-- services end -->
+
 
     // header start
 
