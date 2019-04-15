@@ -11,8 +11,13 @@
 
     // common class
 
+
+
+
     // <!-- browser start -->
     .browser {
+        text-align: center;
+
         p {
             font-size: 16px;
         }
@@ -87,6 +92,15 @@
 
     // common class
 
+
+    // <!-- browser start -->
+    .browser {
+        text-align: center;
+    }
+
+    // <!-- browser end -->
+
+
     // <!-- services start -->
     .services {
         padding-top: 0;
@@ -134,14 +148,21 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 
 
-        // common class
+    // common class
 
-        .title {
-            font-size: 45px;
-        }
-    
-    
-        // common class
+    .title {
+        font-size: 45px;
+    }
+
+
+    // common class
+
+    // <!-- browser start -->
+    .browser {
+        text-align: center;
+    }
+
+    // <!-- browser end -->
 
 
     // <!-- services start -->
