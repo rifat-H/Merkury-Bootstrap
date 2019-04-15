@@ -121,12 +121,35 @@ header {
     padding-top: 150px;
     padding-bottom: 10px;
 
+    .no-hr{
+        &:after {
+            content: none !important;
+        }
+    }
+
     .service-content {
         text-align: center;
         padding-top: 95px;
 
+
+
+        &:after {
+            position: absolute;
+            content: '';
+            width: 220px;
+            height: 1px;
+            background-color: #8492af;
+            top: 140px;
+            left: 270px;
+        }
+
+       
+
         img {
             height: 80px;
+            position: relative;
+
+
         }
 
         h2 {
@@ -259,7 +282,7 @@ header {
         background-color: #fff;
         box-shadow: 0 0 20px 0 grey;
         width: 90%;
-        
+
 
 
         h2 {
@@ -324,8 +347,9 @@ header {
             background-color: #8492af;
             top: 30px;
             right: 240px;
-        
+
         }
+
         &:after {
             position: absolute;
             content: '';
@@ -346,12 +370,14 @@ footer {
     padding: 65px 0;
     background-color: #0e1a35;
 
-    ul{
+    ul {
         display: flex;
         justify-content: flex-end;
-        li{
+
+        li {
             margin-left: 50px;
-            a{
+
+            a {
                 color: #8492af;
             }
         }
