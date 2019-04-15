@@ -147,7 +147,7 @@ header {
             font-weight: 700;
             transition: .3s;
 
-            &:hover{
+            &:hover {
                 background-color: #5584ff;
                 color: #fff;
             }
@@ -209,16 +209,19 @@ header {
     padding-bottom: 60px;
     background-image: url(../images/drag.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 
-    h1 {}
+    .drag-content {
+        h1 {}
 
-    p {
-        margin-top: 45px;
-    }
+        p {
+            margin-top: 45px;
+        }
 
-    img {
-        margin-top: 55px;
-        margin-right: 20px;
+        img {
+            margin-top: 55px;
+            margin-right: 20px;
+        }
     }
 }
 
