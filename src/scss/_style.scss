@@ -135,9 +135,7 @@ header {
             margin-bottom: 30px;
         }
 
-        p {
-            
-        }
+        p {}
 
         button {
             margin-top: 55px;
@@ -155,7 +153,47 @@ header {
 // <!-- services end -->
 
 // <!-- browser start -->
-.browser {}
+.browser {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    background-image: linear-gradient(0deg, #f5f7f9 0%, #ffffff 100%);
+
+    h1 {
+        // word-spacing: -4px;
+        letter-spacing: -2px;
+        color: #0e1a35;
+    }
+
+    p {
+        &:first-of-type {
+            margin-top: 65px;
+        }
+
+        margin-top: 45px;
+    }
+
+
+
+    h2 {
+        &:first-of-type {
+            margin-top: 62px;
+        }
+
+        color: #5584ff;
+        margin-top: 33px;
+        font-size: 22px;
+    }
+
+    img{
+        width: 48%;
+        height: 70%;
+        position: absolute;
+        right: 0;
+        top: 160px;
+    }
+
+}
 
 // <!-- browser end -->
 
