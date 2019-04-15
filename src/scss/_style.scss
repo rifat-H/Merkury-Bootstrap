@@ -199,9 +199,10 @@ header {
 
 // <!-- drag start -->
 .drag {
-    padding-top: 155px;
-    padding-bottom: 183px;
+    padding-top: 95px;
+    padding-bottom: 60px;
     background-image: url(../images/drag.jpg);
+    background-repeat: no-repeat;
 
     h1{}
     p{
