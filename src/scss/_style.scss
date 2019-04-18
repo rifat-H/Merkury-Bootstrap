@@ -227,9 +227,34 @@ header {
 // <!-- browser end -->
 
 // <!-- drag start -->
+
+.slick-prev,
+.slick-next {
+    // bottom: 0 !important;
+    top: 115%;
+
+    &:hover{
+        color: white !important;
+    }
+
+
+    &::before {
+        font-size: 40px !important;
+        // content: none;
+    }
+}
+
+.slick-next {
+    right: 368px;
+}
+
+.slick-prev {
+    left: -2px;
+}
+
 .drag {
     padding-top: 95px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
     background-image: url(../images/drag.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,6 +269,11 @@ header {
         img {
             margin-top: 55px;
             margin-right: 20px;
+            display: inline;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
