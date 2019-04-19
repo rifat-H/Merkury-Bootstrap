@@ -46,10 +46,24 @@
 
 
     // <!-- drag start -->
+    .slick-next {
+        right: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .slick-prev {
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
     .drag {
         padding-top: 15px;
         padding-bottom: 73px;
         text-align: center;
+
+        .drag-content {
+            margin-top: 50px;
+        }
     }
 
     // <!-- drag end -->
@@ -156,6 +170,16 @@
 
 
     // <!-- drag start -->
+    .slick-next {
+        right: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .slick-prev {
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
     .drag {
         padding-top: 15px;
         padding-bottom: 73px;
@@ -235,6 +259,15 @@
 
     // common class
 
+    // drag start
+    .slick-prev,
+    .slick-next {
+        // bottom: 0 !important;
+        top: 115%;
+    }
+    // drag end
+
+
     // footer start
     footer {
         text-align: center;
@@ -260,18 +293,18 @@
     // <!-- browser end -->
 
 
-        // <!-- services start -->
-        .services {
-            padding-top: 0;
-    
-            .service-content {
-                &:after {
-                    content: none;
-                }
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+
+        .service-content {
+            &:after {
+                content: none;
             }
         }
-    
-        // <!-- services end -->
+    }
+
+    // <!-- services end -->
 
 
 
@@ -307,6 +340,22 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+     // drag start
+     .slick-prev,
+     .slick-next {
+         // bottom: 0 !important;
+         top: 115%;
+         right: 40%;
+        transform: translate(-50%, -50%);
+     }
+
+
+
+
+
+     // drag end
+
+
     // footer start
     footer {
         text-align: center;
@@ -323,8 +372,8 @@
 
     // footer end
 
-       // <!-- services start -->
-       .services {
+    // <!-- services start -->
+    .services {
         padding-top: 0;
 
         .service-content {
