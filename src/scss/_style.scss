@@ -231,9 +231,9 @@ header {
 .slick-prev,
 .slick-next {
     // bottom: 0 !important;
-    top: 115%;
+    top: 110%;
 
-    &:hover{
+    &:hover {
         color: white !important;
     }
 
@@ -254,10 +254,63 @@ header {
 
 .drag {
     padding-top: 95px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     background-image: url(../images/drag.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    .drag-header {
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            .name {
+                color: #fff;
+            }
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .oneDrag-item {
+        // width: 95%;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .blueCircle {
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50%;
+            background-color: #5584ff;
+        }
+
+        .title2 {
+
+            h4 {
+                font-size: 20px;
+                font-weight: normal;
+                color: #000;
+
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+
+                >svg {}
+            }
+        }
+
+        >svg {}
+    }
 
     .drag-content {
         h1 {}

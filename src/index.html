@@ -149,9 +149,133 @@
     <section class="drag">
         <div class="container">
             <div class="row">
+
+                <!-- nestable jquery plugin -->
+
                 <div class="col-md-7">
-                    <img src="images/drag-2.png" class="img-fluid" alt="sdf">
+
+                    <!-- drag header start-->
+                    <div class="drag-header">
+                        <h2><span class="name">In Progress </span><span class="number">(3)</span></h2>
+                        <p> > </p>
+                        <h2><span class="name">Completed </span><span class="number">(2)</span></h2>
+                    </div>
+                    <!-- drag header end-->
+                    <div class="container">
+                        <div class="row"></div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 pl-0">
+                                <div class="dd">
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="1">
+                                            <div class="dd-handle">
+                                                <div class="oneDrag-item">
+                                                    <span class="blueCircle">N</span>
+                                                    <div class="title2">
+                                                        <h4>New logo for Apple</h4>
+                                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                                    </div>
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="2">
+                                            <div class="dd-handle">
+                                                <div class="oneDrag-item">
+                                                    <span class="blueCircle">N</span>
+                                                    <div class="title2">
+                                                        <h4>New logo for mango</h4>
+                                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                                    </div>
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="3">
+                                            <div class="dd-handle">
+                                                <div class="oneDrag-item">
+                                                    <span class="blueCircle">N</span>
+                                                    <div class="title2">
+                                                        <h4>New logo for tea</h4>
+                                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                                    </div>
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pl-0">
+                                <div class="dd">
+                                    <ol class="dd-list">
+                                        <li class="dd-item" data-id="4">
+                                            <div class="dd-handle">
+                                                <div class="oneDrag-item">
+                                                    <span class="blueCircle">N</span>
+                                                    <div class="title2">
+                                                        <h4>New logo for Apple</h4>
+                                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                                    </div>
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="5">
+                                            <div class="dd-handle">
+                                                <div class="oneDrag-item">
+                                                    <span class="blueCircle">N</span>
+                                                    <div class="title2">
+                                                        <h4>New logo for mango</h4>
+                                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                                    </div>
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dd-item" data-id="6">
+                                            <div class="dd-handle">
+                                                <div class="oneDrag-item">
+                                                    <span class="blueCircle">N</span>
+                                                    <div class="title2">
+                                                        <h4>New logo for tea</h4>
+                                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                                    </div>
+                                                    <i class="fas fa-ellipsis-v"></i>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- dragandDrop Plugin start -->
+
+                    <!-- <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 pl-0">
+                                <div class="oneDrag-item">
+                                    <span class="blueCircle">N</span>
+                                    <div class="title2">
+                                        <h4>New logo for Apple</h4>
+                                        <p> <i class="far fa-clock"></i> 1 day left</p>
+                                    </div>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- dragandDrop Plugin end -->
                 </div>
+                <!-- nestable jquery plugin -->
+
+                <!-- slider start -->
                 <div class="col-md-5">
                     <div class="slick">
                         <div class="drag-content">
@@ -192,6 +316,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- slider end -->
             </div>
         </div>
     </section>
@@ -297,6 +422,7 @@
     <!-- <script src="js/plugins/slick-1.8.1/slick/slick.js"></script> -->
 
     <script>
+        // slick carousel init
         $(document).ready(function () {
             console.log($('.nxt'));
 
@@ -310,8 +436,15 @@
                 // prevArrow: $('.pre')
             });
         });
+
+
+        // nestable2 init
+        $('.dd').nestable('serialize');
+
     </script>
 
 </body>
+
+</html>
 
 </html>

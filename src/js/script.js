@@ -7,4 +7,4 @@ require('slick-carousel');
 require('popper.js');
 require('bootstrap');
 require('@fortawesome/fontawesome-free/js/all');
-
+require('nestable2');
